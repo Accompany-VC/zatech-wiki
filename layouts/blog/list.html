@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="container-xxl td-main">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="lead">{{ . }}</div>{{ end }}
+    <ul>
+      {{ range .Pages.ByDate.Reverse }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

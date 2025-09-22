@@ -1,0 +1,29 @@
+// Typography and color variables to emulate OG wiki feel
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+  Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  sans-serif;
+$line-height-base: 1.65;
+
+// Base colors (dark theme, OG-like)
+$body-bg: #1f2428; // dark slate background
+$body-color: #cbd5e1; // light slate text
+
+// Headings
+$headings-color: #e5e7eb;
+$headings-font-weight: 700;
+$h1-font-size: 2.25rem; // ~36px
+$h2-font-size: 1.5rem;  // ~24px
+$h3-font-size: 1.25rem; // ~20px
+
+// Links
+$primary: #2ea3ff;
+$link-color: $primary;
+$link-hover-color: lighten($primary, 8%);
+
+// Navbar
+$navbar-dark-color: $body-color;
+$navbar-dark-hover-color: #ffffff;
+$navbar-dark-disabled-color: rgba(#fff, .3);
+$navbar-dark-toggler-icon-bg: none;
+$navbar-dark-brand-color: #ffffff;
+$navbar-dark-brand-hover-color: #ffffff;

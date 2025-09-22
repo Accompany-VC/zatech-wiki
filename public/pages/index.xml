@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on ZATech Wiki</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on ZATech Wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Commercial channels</title>
+      <link>http://localhost:1313/pages/commercial-channels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/commercial-channels/</guid>
+      <description>&lt;p&gt;ZATech does not allow commercial activity on our Slack workspace, with narrow exceptions for specific designated channels. These channels exist to provide organized spaces for commercial interactions while keeping the rest of the community focused on technical discussions and knowledge sharing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;allowed-commercial-channels&#34;&gt;Allowed commercial channels&lt;/h2&gt;&#xA;&lt;h3 id=&#34;job-related-channels&#34;&gt;Job-related channels&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;#jobpostings&lt;/strong&gt; - This channel is exclusively for advertising full-time jobs. All job postings must be submitted through &lt;a href=&#34;https://sboj.dev&#34;&gt;sboj.dev&lt;/a&gt;. These positions should be standard full-time employment opportunities under the standard employment conditions in the relevant country (usually South Africa).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

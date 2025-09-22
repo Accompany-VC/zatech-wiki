@@ -1,3 +1,44 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://wiki.zatech.co.za/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'ZATech Wiki'
+
+[params]
+  gtagID = ""
+  description = "Community-run knowledge base for the South African tech community (ZATech)."
+  offlineSearch = true
+
+[params.ui]
+  navbar_logo = false
+
+[menu]
+  [[menu.main]]
+    name = "FAQs"
+    url = "/faqs/"
+    weight = 10
+  [[menu.main]]
+    name = "Channels"
+    url = "/channels/"
+    weight = 20
+  [[menu.main]]
+    name = "Commercial"
+    url = "/pages/commercial-channels/"
+    weight = 30
+  [[menu.main]]
+    name = "Blogs"
+    url = "/blog/"
+    weight = 40
+
+
+[module]
+  proxy = "direct"
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/google/docsy -> ../../docsy"
+  [module.hugoVersion]
+    extended = true
+    min = "0.73.0"
+  [[module.imports]]
+    path = "github.com/google/docsy"
+    disable = false
+
+  [[module.imports]]
+    path = "github.com/FortAwesome/Font-Awesome"

@@ -1,0 +1,17 @@
+{{ $limit := .Get "limit" | default 3 | int }}
+{{ $all := where site.RegularPages "Section" "blog" }}
+{{ $ordered := $all.ByDate.Reverse }}
+{{ $posts := first $limit $ordered }}
+<div class="mt-4">
+  <h2>Latest from the blog</h2>
+  <ul class="list-unstyled">
+  {{ range $posts }}
+    <li class="mb-2">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="text-muted small">— {{ .Date.Format "2006-01-02" }}</span>
+      {{ with .Params.summary }}<div class="text-muted small">{{ . }}</div>{{ end }}
+    </li>
+  {{ end }}
+  </ul>
+  <p><a href="/blog/">View all posts →</a></p>
+</div>

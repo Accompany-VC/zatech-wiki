@@ -1,0 +1,52 @@
+name: PR Deploy Preview
+
+on:
+  pull_request:
+    branches: [ main ]
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Setup Node (for PostCSS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Go (for Hugo Modules)
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.150.0'
+          extended: true
+
+      - name: Install PostCSS toolchain (Docsy requirement)
+        run: npm install -D postcss postcss-cli autoprefixer
+
+      - name: Build
+        run: hugo --minify --baseURL "/"
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Create GitHub Pages deployment (Preview)
+        uses: actions/deploy-pages@v4
+        with:
+          preview: true

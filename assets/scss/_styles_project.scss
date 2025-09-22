@@ -1,0 +1,114 @@
+/* OG-inspired layout and typography overrides for Docsy */
+
+/* Narrower reading width, centered, with generous padding on large screens */
+@media (min-width: 992px) {
+  .td-main {
+    width: 56%;
+    max-width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem 2rem;
+  }
+}
+
+/* Comfortable reading defaults */
+.td-main img {
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+li {
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  letter-spacing: -0.01em;
+}
+
+/* Subtle code block styling */
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+pre {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  overflow: auto;
+}
+
+/* Simple link color reminiscent of OG */
+a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* Keep navbar minimal and light like OG */
+.td-navbar {
+  box-shadow: none;
+  background: rgba(10, 12, 14, 0.35) !important;
+  backdrop-filter: saturate(140%) blur(10px);
+  -webkit-backdrop-filter: saturate(140%) blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Respect user preference, similar to OG */
+body {
+  color-scheme: light dark;
+}
+
+/* Spacing under navbar to avoid overlap */
+.td-main {
+  padding-top: 5rem;
+}
+
+/* Home page can have a little more breathing room */
+.td-home .td-main {
+  padding-top: 6rem;
+}
+
+/* Simple hero for landing page */
+.td-home .hero {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  max-width: 60ch;
+}
+
+.td-home .hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.td-home .hero p {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Lists with subtle bullets and spacing */
+ul li {
+  margin-bottom: 0.35rem;
+}
+
+/* Align blog list page like FAQs/channels */
+.td-blog.list .td-main,
+.td-blog.section .td-main {
+  width: 56%;
+  max-width: 56%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tighten top space for first headings across pages */
+h1:first-child {
+  margin-top: 0.9rem;
+}
