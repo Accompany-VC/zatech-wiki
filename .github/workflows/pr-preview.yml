@@ -7,11 +7,14 @@ on:
 
 permissions:
   contents: read
-  deployments: write
+  pages: write
+  id-token: write
 
 jobs:
   preview:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,8 +41,15 @@ jobs:
       - name: Install PostCSS toolchain (Docsy requirement)
         run: npm install -D postcss postcss-cli autoprefixer
 
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       - name: Build
-        run: hugo --minify --baseURL "/"
+        env:
+          HUGO_ENV: production
+        run: |
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
@@ -47,6 +57,7 @@ jobs:
           path: ./public
 
       - name: Create GitHub Pages deployment (Preview)
+        id: deployment
         uses: actions/deploy-pages@v4
         with:
           preview: true
