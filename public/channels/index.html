@@ -92,15 +92,83 @@
     </header>
     <div class="container-fluid td-default td-outer">
       <main role="main" class="td-main">
-        <ul>
-<li><a href="/channels/private-channels/">Private channels</a></li>
-<li><a href="/channels/algorithms/">#algorithms</a></li>
-<li><a href="/channels/loadshedding/">#loadshedding</a></li>
-<li><a href="/channels/jobpostings/">#jobpostings</a></li>
-<li><a href="/channels/movies-and-tv/">#movies-and-tv</a></li>
-<li><a href="/channels/ux-ui/">#ux-ui</a></li>
-<li><a href="/channels/writing/">#writing</a></li>
+        
+<h1>Channels</h1>
+
+<input type="text" id="searchInput" placeholder="Search channels..." />
+
+<ul id="channelList">
+  
+    <li class="channel-item" data-name="#jobpostings">
+      <a href="http://localhost:1313/channels/jobpostings/">##jobpostings</a>
+      
+        <button class="join-btn" data-channel="#jobpostings">Join</button>
+      
+    </li>
+  
+    <li class="channel-item" data-name="algorithms">
+      <a href="http://localhost:1313/channels/algorithms/">#algorithms</a>
+      
+        <button class="join-btn" data-channel="algorithms">Join</button>
+      
+    </li>
+  
+    <li class="channel-item" data-name="loadshedding">
+      <a href="http://localhost:1313/channels/loadshedding/">#loadshedding</a>
+      
+        <button class="join-btn" data-channel="loadshedding">Join</button>
+      
+    </li>
+  
+    <li class="channel-item" data-name="movies-and-tv">
+      <a href="http://localhost:1313/channels/movies-and-tv/">#movies-and-tv</a>
+      
+        <button class="join-btn" data-channel="movies-and-tv">Join</button>
+      
+    </li>
+  
+    <li class="channel-item" data-name="private channels">
+      <a href="http://localhost:1313/channels/private-channels/">#Private Channels</a>
+      
+        <button class="join-btn" data-channel="Private Channels">Join</button>
+      
+    </li>
+  
+    <li class="channel-item" data-name="ux-ui">
+      <a href="http://localhost:1313/channels/ux-ui/">#ux-ui</a>
+      
+        <button class="join-btn" data-channel="ux-ui">Join</button>
+      
+    </li>
+  
+    <li class="channel-item" data-name="writing">
+      <a href="http://localhost:1313/channels/writing/">#writing</a>
+      
+        <button class="join-btn" data-channel="writing">Join</button>
+      
+    </li>
+  
 </ul>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const searchInput = document.getElementById("searchInput");
+  const channels = document.querySelectorAll(".channel-item");
+
+  searchInput.addEventListener("input", () => {
+    const term = searchInput.value.toLowerCase();
+    channels.forEach(ch => {
+      ch.style.display = ch.dataset.name.includes(term) ? "block" : "none";
+    });
+  });
+
+  document.querySelectorAll(".join-btn[data-channel]").forEach(btn => {
+    btn.addEventListener("click", e => {
+      alert(`You joined the "${e.target.dataset.channel}" channel!`);
+    });
+  });
+});
+</script>
 
       </main>
       

@@ -19771,6 +19771,39 @@ div.drawioframe {
     visibility: hidden; } }
 
 /* OG-inspired layout and typography overrides for Docsy */
+#searchInput {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #fff; }
+
+#channelList {
+  list-style: none;
+  padding: 0; }
+
+.channel-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #2a2a2a;
+  border-radius: 8px; }
+
+.channel-item a {
+  color: #2ea3ff;
+  text-decoration: none; }
+
+.join-btn {
+  margin-left: 15px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2ea3ff;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer; }
+
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {

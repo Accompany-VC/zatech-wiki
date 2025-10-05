@@ -1,0 +1,38 @@
+{{ define "main" }}
+<h1>Channels</h1>
+
+<input type="text" id="searchInput" placeholder="Search channels..." />
+
+<ul id="channelList">
+  {{ range .Pages }}
+    <li class="channel-item" data-name="{{ .Title | lower }}">
+      <a href="{{ .Permalink }}">#{{ .Title }}</a>
+      {{ if .Params.joinLink }}
+        <a href="{{ .Params.joinLink }}" target="_blank" class="join-btn">Join</a>
+      {{ else }}
+        <button class="join-btn" data-channel="{{ .Title }}">Join</button>
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const searchInput = document.getElementById("searchInput");
+  const channels = document.querySelectorAll(".channel-item");
+
+  searchInput.addEventListener("input", () => {
+    const term = searchInput.value.toLowerCase();
+    channels.forEach(ch => {
+      ch.style.display = ch.dataset.name.includes(term) ? "block" : "none";
+    });
+  });
+
+  document.querySelectorAll(".join-btn[data-channel]").forEach(btn => {
+    btn.addEventListener("click", e => {
+      alert(`You joined the "${e.target.dataset.channel}" channel!`);
+    });
+  });
+});
+</script>
+{{ end }}
