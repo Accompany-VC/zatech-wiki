@@ -2,8 +2,23 @@
 title = "movies-and-tv"
 +++
 
-A list of movies that we like, with ratings! Like IMDB but only for ZATech peeps 🦄
+# #movies-and-tv
 
-- [View list of movies](https://docs.google.com/spreadsheets/d/e/2PACX-1vS1rw_JQAuZgB6ZNrjmHJVurJhdEeFt5mDKEaw-hocIFKCrGVOvMgNTrabMuMHNZxertSTo0fW4JUus/pubhtml?gid=239468049&single=true)
+> A fun channel to share, rate, and discuss movies and TV shows with the community.
 
-- [Submit a movie and rating](https://docs.google.com/forms/d/e/1FAIpQLSdGtbpBcLHdNhJ64YpWGOBaHQyLTsELBxGG7WTMFHH7EEsemg/viewform)
+---
+
+## Purpose
+Curate movie and TV recommendations from the community.
+
+---
+
+## Resources
+- [View movie list (Google Sheet)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS1rw_JQAuZgB6ZNrjmHJVurJhdEeFt5mDKEaw-hocIFKCrGVOvMgNTrabMuMHNZxertSTo0fW4JUus/pubhtml?gid=239468049&single=true)
+- [Submit a movie and rating (Google Form)](https://docs.google.com/forms/d/e/1FAIpQLSdGtbpBcLHdNhJ64YpWGOBaHQyLTsELBxGG7WTMFHH7EEsemg/viewform)
+
+---
+
+## Related Channels
+- [#music](/channels/music/)
+- [#gaming](/channels/gaming/)
