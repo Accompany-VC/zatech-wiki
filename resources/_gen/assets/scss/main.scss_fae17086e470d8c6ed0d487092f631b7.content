@@ -19771,6 +19771,24 @@ div.drawioframe {
     visibility: hidden; } }
 
 /* OG-inspired layout and typography overrides for Docsy */
+#faqs-page .faq-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #2a2a2a;
+  border-radius: 8px; }
+
+#faqs-page .faq-item h2, #faqs-page .faq-item .h2 {
+  color: #2ea3ff;
+  margin-bottom: 0.5rem; }
+
+#faqs-page .support-resources ul {
+  list-style: none;
+  padding: 0; }
+
+#faqs-page .support-resources li a {
+  color: #2ea3ff;
+  text-decoration: underline; }
+
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {

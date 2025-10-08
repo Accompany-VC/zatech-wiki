@@ -1,0 +1,23 @@
+#faqs-page {
+  .faq-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+  }
+
+  .faq-item h2 {
+    color: $primary;
+    margin-bottom: 0.5rem;
+  }
+
+  .support-resources ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .support-resources li a {
+    color: $primary;
+    text-decoration: underline;
+  }
+}

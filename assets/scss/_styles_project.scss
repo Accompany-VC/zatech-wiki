@@ -1,5 +1,7 @@
 /* OG-inspired layout and typography overrides for Docsy */
 
+@import "faqs";
+
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {
