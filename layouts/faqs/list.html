@@ -1,0 +1,176 @@
+{{ define "main" }}
+<section class="faq-page">
+  <header class="faq-page__header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="faq-page__intro">
+      {{ . }}
+    </div>
+    {{ else }}
+    <p>Find quick answers to the most common questions from the community.</p>
+    {{ end }}
+  </header>
+
+  {{ $pages := .RegularPagesRecursive.ByWeight }}
+  <div class="faq-entries" data-faq-accordion>
+    {{ range $index, $page := $pages }}
+    {{ $answerID := printf "faq-answer-%d" $index }}
+    <article class="faq-entry">
+      <div
+        class="faq-entry__toggle"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-controls="{{ $answerID }}"
+      >
+        <span class="faq-entry__summary">
+          <span class="faq-entry__question-row">
+            <span class="faq-entry__question">
+              {{ $page.Title }}
+              <a
+                class="faq-entry__link"
+                href="{{ $page.RelPermalink }}"
+                aria-label="Open {{ $page.Title }} in a new page"
+              >
+                <span aria-hidden="true">&nearr;</span>
+              </a>
+            </span>
+          </span>
+          {{ with $page.CurrentSection }}
+          <span class="faq-entry__category">{{ .Title }}</span>
+          {{ end }}
+        </span>
+        <span class="faq-entry__icon" aria-hidden="true">+</span>
+      </div>
+      <div class="faq-entry__answer" id="{{ $answerID }}" hidden>
+        {{ $page.Content }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<script>
+(function () {
+  var MINUS_SIGN = "\u2212";
+
+  function onReady(fn) {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", fn);
+    } else {
+      fn();
+    }
+  }
+
+  function closestByClass(element, className) {
+    if (!element) return null;
+    if (typeof element.closest === "function") {
+      return element.closest("." + className);
+    }
+
+    var current = element;
+    while (current && current !== document) {
+      if (
+        current.classList &&
+        current.classList.contains(className)
+      ) {
+        return current;
+      }
+      current = current.parentElement;
+    }
+
+    return null;
+  }
+
+  function toggleEntry(toggle) {
+    var expanded = toggle.getAttribute("aria-expanded") === "true";
+    var answerId = toggle.getAttribute("aria-controls");
+    var answer = answerId ? document.getElementById(answerId) : null;
+    var icon = toggle.querySelector(".faq-entry__icon");
+    var entry = closestByClass(toggle, "faq-entry");
+
+    if (expanded) {
+      toggle.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+      if (entry) entry.classList.remove("is-open");
+      if (answer) {
+        answer.setAttribute("hidden", "");
+        answer.classList.remove("is-open");
+      }
+      if (icon) icon.textContent = "+";
+    } else {
+      toggle.classList.add("is-open");
+      toggle.setAttribute("aria-expanded", "true");
+      if (entry) entry.classList.add("is-open");
+      if (answer) {
+        answer.removeAttribute("hidden");
+        answer.classList.add("is-open");
+      }
+      if (icon) icon.textContent = MINUS_SIGN;
+    }
+  }
+
+  function bindToggle(toggle) {
+    var pointerHandled = false;
+
+    function handleClick(event) {
+      if (pointerHandled) {
+        pointerHandled = false;
+        return;
+      }
+      event.preventDefault();
+      toggleEntry(toggle);
+    }
+
+    function handleKeydown(event) {
+      var key = event.key || event.keyCode;
+      if (key === "Enter" || key === " " || key === 13 || key === 32) {
+        event.preventDefault();
+        toggleEntry(toggle);
+      }
+    }
+
+    toggle.addEventListener("click", handleClick);
+    toggle.addEventListener("keydown", handleKeydown);
+
+    if (window.PointerEvent) {
+      toggle.addEventListener("pointerup", function (event) {
+        // On touch devices pointerup fires before click; prevent double toggles.
+        if (event.pointerType === "touch") {
+          pointerHandled = true;
+          event.preventDefault();
+          toggleEntry(toggle);
+        }
+      });
+    } else {
+      toggle.addEventListener("touchend", function (event) {
+        pointerHandled = true;
+        event.preventDefault();
+        toggleEntry(toggle);
+      });
+    }
+  }
+
+  function init() {
+    var links = document.querySelectorAll(".faq-entry__link");
+    Array.prototype.forEach.call(links, function (link) {
+      link.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+
+      link.addEventListener("keydown", function (event) {
+        var key = event.key || event.keyCode;
+        if (key === "Enter" || key === " " || key === 13 || key === 32) {
+          event.stopPropagation();
+        }
+      });
+    });
+
+    var toggles = document.querySelectorAll(".faq-entry__toggle");
+    Array.prototype.forEach.call(toggles, bindToggle);
+  }
+
+  onReady(init);
+})();
+</script>
+{{ end }}
