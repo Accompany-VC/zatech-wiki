@@ -4,7 +4,7 @@ title = "Am I allowed to post a job opportunity?"
 
 Follow this helpful flow chart to see if you're allowed to post your job.
 
-![Am I allowed to post a job?](/images/faq/am-i-allowed-to-post-a-job.jpg)
+![Am I allowed to post a job?](/images/faq/am-i-allowed-to-post-a-job.png)
 
 If that comes to "Go for it", then have a look at: [Where Do I Post My Job](/faqs/wheredoipostmyjob)
 

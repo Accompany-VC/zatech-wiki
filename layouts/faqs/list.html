@@ -1,54 +1,106 @@
 {{ define "main" }}
 <section class="faq-page">
-  <h1>Frequently Asked Questions</h1>
-  <p>Find quick answers by expanding a category below.</p>
-
-  {{ range .Sections }}
-  <div class="faq-category">
-    <button class="faq-category-toggle">
-      {{ .Title }}
-      <span class="arrow">▼</span>
-    </button>
-
-    <div class="faq-category-content">
-      {{ range .Pages }}
-      <div class="faq-item">
-        <button class="faq-question">
-          {{ .Title }}
-          <span class="arrow">+</span>
-        </button>
-        <div class="faq-answer">
-          {{ .Content }}
-        </div>
-      </div>
-      {{ end }}
+  <header class="faq-page__header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="faq-page__intro">
+      {{ . }}
     </div>
+    {{ else }}
+    <p>Find quick answers to the most common questions from the community.</p>
+    {{ end }}
+  </header>
+
+  {{ $pages := .RegularPagesRecursive.ByWeight }}
+  <div class="faq-entries" data-faq-accordion>
+    {{ range $index, $page := $pages }}
+    {{ $answerID := printf "faq-answer-%d" $index }}
+    <article class="faq-entry">
+      <div
+        class="faq-entry__toggle"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-controls="{{ $answerID }}"
+      >
+        <span class="faq-entry__summary">
+          <span class="faq-entry__question-row">
+            <span class="faq-entry__question">{{ $page.Title }}</span>
+            <a
+              class="faq-entry__link"
+              href="{{ $page.RelPermalink }}"
+              aria-label="Open {{ $page.Title }} in a new page"
+            >
+              <span aria-hidden="true">&nearr;</span>
+            </a>
+          </span>
+          {{ with $page.CurrentSection }}
+          <span class="faq-entry__category">{{ .Title }}</span>
+          {{ end }}
+        </span>
+        <span class="faq-entry__icon" aria-hidden="true">+</span>
+      </div>
+      <div class="faq-entry__answer" id="{{ $answerID }}" hidden>
+        {{ $page.Content }}
+      </div>
+    </article>
+    {{ end }}
   </div>
-  {{ end }}
 </section>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  // Category dropdown toggle
-  document.querySelectorAll(".faq-category-toggle").forEach(btn => {
-    btn.addEventListener("click", () => {
-      btn.classList.toggle("active");
-      const content = btn.nextElementSibling;
-      content.classList.toggle("open");
+  document.querySelectorAll(".faq-entry__link").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
+
+    link.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.stopPropagation();
+      }
     });
   });
-  
-  // Individual question dropdown
-  document.querySelectorAll(".faq-question").forEach(q => {
-    q.addEventListener("click", () => {
-      q.classList.toggle("active");
-      const answer = q.nextElementSibling;
-      answer.classList.toggle("open");
+
+  document.querySelectorAll(".faq-entry__toggle").forEach((toggle) => {
+    const handleToggle = () => {
+      const expanded = toggle.getAttribute("aria-expanded") === "true";
+      const answer = document.getElementById(
+        toggle.getAttribute("aria-controls")
+      );
+      const icon = toggle.querySelector(".faq-entry__icon");
+
+      toggle.classList.toggle("is-open", !expanded);
+      toggle.setAttribute("aria-expanded", String(!expanded));
+
+      if (!answer) return;
+
+      const entry = toggle.closest(".faq-entry");
+      if (entry) {
+        entry.classList.toggle("is-open", !expanded);
+      }
+
+      if (expanded) {
+        answer.setAttribute("hidden", "");
+        answer.classList.remove("is-open");
+      } else {
+        answer.removeAttribute("hidden");
+        answer.classList.add("is-open");
+      }
+
+      if (icon) {
+        icon.textContent = expanded ? "+" : "−";
+      }
+    };
+
+    toggle.addEventListener("click", handleToggle);
+    toggle.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        handleToggle();
+      }
     });
   });
 });
 </script>
 {{ end }}
-
-
-
