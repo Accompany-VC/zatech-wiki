@@ -19,10 +19,10 @@ cd zatech-wiki
 hugo mod tidy
 
 # 3) Install PostCSS toolchain
-npm install -D postcss postcss-cli autoprefixer
+npm install
 
 # 4) Run the dev server
-hugo server -D
+npm run dev
 ```
 
 The site will be available at `http://localhost:1313/`.
