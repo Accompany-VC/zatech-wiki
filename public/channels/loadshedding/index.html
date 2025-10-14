@@ -1,6 +1,6 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54366&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -18,29 +18,29 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>loadshedding | ZATech Wiki</title>
-<meta name="description" content="FAQ Q: How big a system do I need to keep insert items powered during Loadshedding?
-A1: You connect a measurement device to the equipment that you want to power, and measure the startup peaks when they are all turned on simultaneously as well as the average used for the time you need them to be powered on.
-A2: or you need to look at all their specifications to see the peak and the &ldquo;base&rdquo; and based on those &ldquo;predict&rdquo; the needs.">
-<meta property="og:url" content="http://localhost:1313/channels/loadshedding/">
+<meta name="description" content="#loadshedding A practical channel for discussing energy outages, backup power, and survival tips.
+Purpose Share experiences and technical advice about handling loadshedding in South Africa.
+FAQ Resources Slack thread: consumption estimates ">
+<meta property="og:url" content="http://localhost:54366/channels/loadshedding/">
   <meta property="og:site_name" content="ZATech Wiki">
   <meta property="og:title" content="loadshedding">
-  <meta property="og:description" content="FAQ Q: How big a system do I need to keep insert items powered during Loadshedding?
-A1: You connect a measurement device to the equipment that you want to power, and measure the startup peaks when they are all turned on simultaneously as well as the average used for the time you need them to be powered on.
-A2: or you need to look at all their specifications to see the peak and the “base” and based on those “predict” the needs.">
+  <meta property="og:description" content="#loadshedding A practical channel for discussing energy outages, backup power, and survival tips.
+Purpose Share experiences and technical advice about handling loadshedding in South Africa.
+FAQ Resources Slack thread: consumption estimates">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="channels">
 
   <meta itemprop="name" content="loadshedding">
-  <meta itemprop="description" content="FAQ Q: How big a system do I need to keep insert items powered during Loadshedding?
-A1: You connect a measurement device to the equipment that you want to power, and measure the startup peaks when they are all turned on simultaneously as well as the average used for the time you need them to be powered on.
-A2: or you need to look at all their specifications to see the peak and the “base” and based on those “predict” the needs.">
-  <meta itemprop="wordCount" content="380">
+  <meta itemprop="description" content="#loadshedding A practical channel for discussing energy outages, backup power, and survival tips.
+Purpose Share experiences and technical advice about handling loadshedding in South Africa.
+FAQ Resources Slack thread: consumption estimates">
+  <meta itemprop="wordCount" content="31">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="loadshedding">
-  <meta name="twitter:description" content="FAQ Q: How big a system do I need to keep insert items powered during Loadshedding?
-A1: You connect a measurement device to the equipment that you want to power, and measure the startup peaks when they are all turned on simultaneously as well as the average used for the time you need them to be powered on.
-A2: or you need to look at all their specifications to see the peak and the “base” and based on those “predict” the needs.">
+  <meta name="twitter:description" content="#loadshedding A practical channel for discussing energy outages, backup power, and survival tips.
+Purpose Share experiences and technical advice about handling loadshedding in South Africa.
+FAQ Resources Slack thread: consumption estimates">
 
 
 
@@ -100,24 +100,22 @@ A2: or you need to look at all their specifications to see the peak and the “b
     </header>
     <div class="container-fluid td-default td-outer">
       <main role="main" class="td-main">
-        <h2 id="faq">FAQ</h2>
-<p><strong>Q</strong>: How big a system do I need to keep <strong>insert items</strong> powered during Loadshedding?</p>
-<p><em>A1</em>: You connect a measurement device to the equipment that you want to power, and measure the startup peaks when they are all turned on simultaneously as well as the average used for the time you need them to be powered on.</p>
-<p><em>A2</em>: or you need to look at all their specifications to see the peak and the &ldquo;base&rdquo; and based on those &ldquo;predict&rdquo; the needs.</p>
-<p><strong>Q</strong>: What is kWH and AH and kVA?</p>
-<p><em>A</em>:</p>
-<p>A is the current draw and kVA is thousands of Amps multiplied by the Voltage pulled/output (typically 220-240V) and is nearly equivalent to W</p>
-<p>W (Watts) is the power and calculated as Voltage * Amps(yes, it&rsquo;s the same but there are some details that differs outside of this discussion)</p>
-<p>AH is the maximum amount of Amps that the battery can output (from 100% full to empty) for an hour. Ie. a 100Ah 12V battery, will be able to output 100A at 12V from 100% to &ldquo;empty&rdquo; for an hour&hellip; and then it&rsquo;s empty</p>
-<p>kWh -&gt; 1000Wh - The average Watts that was consumed during an hour</p>
-<p>Efficiency: The percentage of power taken from the one side, that would be produced on the otherside, ie. 85% of 100Ah @ 12V := 1200kWh * 0.85 =&gt; ~= 1020kWh producing ~4.6A at 240V (Ditto for charging etc. from Solar/Grid to battery/etc.)</p>
-<p>If you now wants to calculate the storage needed for a Stage2 - expecting 2 hours everyday:</p>
-<ol>
-<li>get the expected Watts consumed (see <a href="https://zatech.slack.com/archives/CG4HBE0NB/p1669313627523599">https://zatech.slack.com/archives/CG4HBE0NB/p1669313627523599</a> ) for 1 hour</li>
-<li>multiply the 1hour&rsquo;s value above by the number of hours you need to keep up, taking into account the overruns, and the expectations that charging might not be completed fully during  day.</li>
-<li>Now you have two numbers: kVA - the output maximums you need to cater for (ie. how many computers on, compare this with the size of a water pipe) and  kWh  ie. the amount of storage needed compare with the size of the storage tank that feeds the pipe.</li>
-<li>Those two numbers you can then take to installers/etc. to compare or calculate by adding the needed sizes of batteries, the UPS and the solar power needed to fill them batteries/storage tanks.</li>
-</ol>
+        <h1 id="loadshedding">#loadshedding</h1>
+<blockquote>
+<p>A practical channel for discussing energy outages, backup power, and survival tips.</p></blockquote>
+<hr>
+<h2 id="purpose">Purpose</h2>
+<p>Share experiences and technical advice about handling loadshedding in South Africa.</p>
+<hr>
+<h2 id="faq">FAQ</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://zatech.slack.com/archives/CG4HBE0NB/p1669313627523599">Slack thread: consumption estimates</a></li>
+</ul>
 
       </main>
       

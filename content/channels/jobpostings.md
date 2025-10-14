@@ -2,18 +2,30 @@
 title = "#jobpostings"
 +++
 
-## Overview
+# #jobpostings
 
-At ZATech we get quite a lot of jobpostings so having good communication is super important to ensure high signal and low noise.
+> A channel dedicated to sharing job opportunities in the South African tech scene.
 
-We have a jobposting tool which will format a post nicely for you, see the "[How do I post a job opportunity?](/faqs/howtojobpost)" for more information.
+---
 
-## Guidelines:
+## Purpose
+Provide a clear and fair space for members to share job opportunities.
 
-A great description tries to do the following:
+---
 
-- Pitch the applicant on what work they'll do in the job
-- Pitch what the company itself does
-- Motivate why someone would pick your role over another
+## Guidelines
+- ✅ Pitch the applicant on what work they’ll do  
+- ✅ Explain what the company does  
+- ✅ Motivate why someone should pick your role  
+- ❌ No professional recruiters (see [Code of Conduct](https://github.com/zatech/code-of-conduct))  
 
-(Obviously it goes without saying that professional recruitment is not allowed, please see the [Code of Conduct](https://github.com/zatech/code-of-conduct) if you're unsure)
+---
+
+## Tools
+Use the [Jobposting tool](/faqs/howtojobpost) to format posts correctly.  
+
+---
+
+## Related Channels
+- [#freelance](/channels/freelance/)
+- [#internships](/channels/internships/)

@@ -1,8 +1,30 @@
 +++
 title = "writing"
 +++
-A place for writers, especially those writing guides, tutorials and similar but everyone is very welcome!
 
-We do talks and meetups occasionally to talk about writing and give feedback on each other's drafts.
+# #writing
 
-See [https://github.com/sixhobbits/technical-writing](https://github.com/sixhobbits/technical-writing) for resources on how to get started with getting better at writing, or on how to get paid to write.
+> A community space for writers of guides, tutorials, technical docs, and more.
+
+---
+
+## Purpose
+Support members who write professionally or as a hobby, and create a place for feedback.
+
+---
+
+## Activities
+- Talks and meetups about writing  
+- Peer feedback sessions  
+- Sharing drafts and resources  
+
+---
+
+## Resources
+- [Technical writing resources (GitHub)](https://github.com/sixhobbits/technical-writing)
+
+---
+
+## Related Channels
+- [#blogging](/channels/blogging/)
+- [#career-development](/channels/career-development/)
