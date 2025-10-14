@@ -1,21 +1,54 @@
 {{ define "main" }}
-<h1>FAQs</h1>
+<section class="faq-page">
+  <h1>Frequently Asked Questions</h1>
+  <p>Find quick answers by expanding a category below.</p>
 
-<div class="faq-list">
-  {{ range .Pages }}
-    <div class="faq-item">
-      <h2>{{ .Title }}</h2>
-      <div>{{ .Content }}</div>
+  {{ range .Sections }}
+  <div class="faq-category">
+    <button class="faq-category-toggle">
+      {{ .Title }}
+      <span class="arrow">▼</span>
+    </button>
+
+    <div class="faq-category-content">
+      {{ range .Pages }}
+      <div class="faq-item">
+        <button class="faq-question">
+          {{ .Title }}
+          <span class="arrow">+</span>
+        </button>
+        <div class="faq-answer">
+          {{ .Content }}
+        </div>
+      </div>
+      {{ end }}
     </div>
+  </div>
   {{ end }}
-</div>
+</section>
 
-<div class="support-resources">
-  <h2>Support Resources</h2>
-  <ul>
-    <li><a href="mailto:support@zatech.com">Contact Support</a></li>
-    <li><a href="https://example.com/kb" target="_blank">Knowledge Base</a></li>
-    <li><a href="https://example.com/forum" target="_blank">Community Forum</a></li>
-  </ul>
-</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Category dropdown toggle
+  document.querySelectorAll(".faq-category-toggle").forEach(btn => {
+    btn.addEventListener("click", () => {
+      btn.classList.toggle("active");
+      const content = btn.nextElementSibling;
+      content.classList.toggle("open");
+    });
+  });
+  
+  // Individual question dropdown
+  document.querySelectorAll(".faq-question").forEach(q => {
+    q.addEventListener("click", () => {
+      q.classList.toggle("active");
+      const answer = q.nextElementSibling;
+      answer.classList.toggle("open");
+    });
+  });
+});
+</script>
 {{ end }}
+
+
+

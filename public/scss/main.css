@@ -19771,23 +19771,160 @@ div.drawioframe {
     visibility: hidden; } }
 
 /* OG-inspired layout and typography overrides for Docsy */
-#faqs-page .faq-item {
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background-color: #2a2a2a;
-  border-radius: 8px; }
+/* FAQ Page Styles */
+.faq-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem; }
+  .faq-page h1, .faq-page .h1 {
+    margin-bottom: 0.5rem; }
+  .faq-page > p {
+    color: #666;
+    margin-bottom: 2rem; }
 
-#faqs-page .faq-item h2, #faqs-page .faq-item .h2 {
-  color: #2ea3ff;
-  margin-bottom: 0.5rem; }
+/* Category Styles */
+.faq-category {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; }
 
-#faqs-page .support-resources ul {
-  list-style: none;
-  padding: 0; }
+.faq-category-toggle {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: #f8f9fa;
+  border: none;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s; }
+  .faq-category-toggle:hover {
+    background: #e9ecef; }
+  .faq-category-toggle.active {
+    background: #e3f2fd; }
+    .faq-category-toggle.active .arrow {
+      transform: rotate(180deg); }
 
-#faqs-page .support-resources li a {
-  color: #2ea3ff;
-  text-decoration: underline; }
+.faq-category-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #fff;
+  color: #333; }
+  .faq-category-content.open {
+    max-height: none;
+    overflow: visible; }
+
+/* Individual FAQ Item Styles */
+.faq-item {
+  border-bottom: 1px solid #eee; }
+  .faq-item:last-child {
+    border-bottom: none; }
+
+.faq-question {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: #fff;
+  border: none;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s; }
+  .faq-question:hover {
+    background: #f8f9fa; }
+  .faq-question .arrow {
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.2s; }
+  .faq-question.active .arrow {
+    transform: rotate(45deg); }
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 1.5rem;
+  background: #fafafa; }
+  .faq-answer.open {
+    max-height: none;
+    overflow: visible; }
+  .faq-answer p {
+    padding: 1rem 0; }
+
+/* Arrow transition */
+.arrow {
+  transition: transform 0.2s ease; }
+
+/* Support Request Section */
+.support-request {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f0f7ff;
+  border: 2px solid #2196F3;
+  border-radius: 8px;
+  text-align: center; }
+  .support-request h2, .support-request .h2 {
+    margin-top: 0;
+    color: #1976D2; }
+  .support-request p {
+    margin-bottom: 1.5rem; }
+
+.support-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #2196F3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.2s; }
+  .support-button:hover {
+    background: #1976D2; }
+
+/* Support Form (if using Option 2) */
+.support-form {
+  max-width: 600px;
+  margin: 0 auto; }
+  .support-form input,
+  .support-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit; }
+    .support-form input:focus,
+    .support-form textarea:focus {
+      outline: none;
+      border-color: #2196F3; }
+  .support-form textarea {
+    resize: vertical; }
+  .support-form .support-button {
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer; }
+
+/* FAQ Support Link (if using Option 3) */
+.faq-support-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #2196F3;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500; }
+  .faq-support-link:hover {
+    text-decoration: underline; }
 
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
