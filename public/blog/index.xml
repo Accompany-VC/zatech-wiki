@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on ZATech Wiki</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://abduldavids.github.io/blog/</link>
     <description>Recent content in Blog on ZATech Wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://abduldavids.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Payment Providers in South Africa</title>
-      <link>http://localhost:1313/blog/payment-providers-in-south-africa/</link>
+      <link>https://abduldavids.github.io/blog/payment-providers-in-south-africa/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/payment-providers-in-south-africa/</guid>
+      <guid>https://abduldavids.github.io/blog/payment-providers-in-south-africa/</guid>
       <description>A living list of ZA-friendly payment providers, MoR options, fees, and notes.</description>
     </item>
   </channel>

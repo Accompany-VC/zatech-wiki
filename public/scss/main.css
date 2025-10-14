@@ -19842,19 +19842,22 @@ div.drawioframe {
 
 .faq-entry__question {
   flex: 1 1 auto;
+  display: inline;
   font-size: 1.05rem;
   color: #f1f2f4; }
 
 .faq-entry__link {
+  margin-left: 0.4rem;
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.85rem;
-  height: 1.85rem;
+  width: 1.6rem;
+  height: 1.6rem;
   border-radius: 0.75rem;
   font-size: 0.9rem;
   color: rgba(229, 231, 235, 0.6);
+  vertical-align: middle;
   transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease; }
   .faq-entry__link:hover, .faq-entry__link:focus-visible {
     color: rgba(46, 163, 255, 0.95);
