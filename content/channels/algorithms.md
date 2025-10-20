@@ -6,23 +6,30 @@ title = "algorithms"
 
 > A channel for exploring algorithms, data structures, and computer science concepts.
 
+**842 members** • **Created: October 7, 2015**
+
 ---
 
-## Purpose
+<details open>
+<summary><strong>Purpose</strong></summary>
+
 Share, discuss, and practice algorithms — from competitive programming to academic papers.
 
----
+</details>
 
-## Common Topics
+<details>
+<summary><strong>Common Topics</strong></summary>
+
 - Coding challenge platforms
 - Data structures
 - Interview prep
 - Optimization and fairness
 - Academic papers and textbooks
 
----
+</details>
 
-## Resources
+<details>
+<summary><strong>Resources</strong></summary>
 
 ### Code Challenge Sites
 - [LeetCode](https://leetcode.com/)
@@ -67,19 +74,23 @@ Share, discuss, and practice algorithms — from competitive programming to acad
 - [Levenshtein automata](http://blog.notdot.net/2010/07/Damn-Cool-Algorithms-Levenshtein-Automata)
 - [Zip Trees - Tarjan](https://arxiv.org/pdf/1806.06726.pdf)
 - [Masstree](https://www.the-paper-trail.org/post/masstree-paper-notes/)
-- [Google Interview Question: The Knight’s Dialer](https://medium.com/@alexgolec/google-interview-questions-deconstructed-the-knights-dialer-f780d516f029)  
+- [Google Interview Question: The Knight's Dialer](https://medium.com/@alexgolec/google-interview-questions-deconstructed-the-knights-dialer-f780d516f029)  
   - [Reddit comments](https://www.reddit.com/r/programming/comments/9mhv8a/google_engineer_breaks_down_the_interview/e7euugk/)
 - [Interviewing.io recordings](https://interviewing.io/recordings)
 - [Reasoning about performance](https://www.youtube.com/watch?v=80LKF2qph6I)
-- [Braess’s Paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox)
+- [Braess's Paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox)
 - [Computers can solve your problem (Boston Globe)](https://apps.bostonglobe.com/ideas/graphics/2018/09/equity-machine/)
 
 ### Papers
 - [Papers with code](https://github.com/zziz/pwc)
 - [The Morning Paper](https://blog.acolyer.org/)
 
----
+</details>
 
-## Related Channels
+<details>
+<summary><strong>Related Channels</strong></summary>
+
 - [#machine-learning](/channels/machine-learning/)
 - [#cs-theory](/channels/cs-theory/)
+
+</details>
