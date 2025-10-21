@@ -14,7 +14,7 @@ title = 'ZATech Wiki'
   [[menu.main]]
     name = "FAQs"
     url = "/faqs/"
-    weight = 10
+    weight = 10  
   [[menu.main]]
     name = "Channels"
     url = "/channels/"
@@ -27,7 +27,14 @@ title = 'ZATech Wiki'
     name = "Blogs"
     url = "/blog/"
     weight = 40
-
+  [[menu.main]]
+    name = "Code of Conduct"
+    url = "/code-of-conduct/"
+    weight = 50
+  [[menu.main]]
+    name = "Return to the Website"
+    url = "https://zatech-website.pages.dev"
+    weight = 60
 
 [module]
   proxy = "direct"

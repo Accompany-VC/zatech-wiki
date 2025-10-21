@@ -56,5 +56,7 @@
     <loc>http://localhost:1313/faqs/job-postings/wheredoipostmyjob/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/writing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/code-of-conduct/</loc>
   </url>
 </urlset>

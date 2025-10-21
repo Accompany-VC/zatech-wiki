@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&display=swap");
 :root,
 [data-bs-theme="light"] {
@@ -19931,6 +19932,66 @@ div.drawioframe {
   .faq-page {
     padding-left: 0;
     padding-right: 0; } }
+
+.code-of-conduct {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem; }
+  .code-of-conduct__title {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid white;
+    display: inline-block; }
+    .code-of-conduct__title h1, .code-of-conduct__title .h1 {
+      margin: 0 0.5rem 0;
+      font-size: 2.5rem;
+      text-align: center;
+      font-weight: 700; }
+    .code-of-conduct__title .subtitle {
+      font-size: 1.2rem;
+      margin: 0; }
+  .code-of-conduct__content {
+    line-height: 1.7; }
+    .code-of-conduct__content h2, .code-of-conduct__content .h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid white;
+      display: inline-block; }
+    .code-of-conduct__content h3, .code-of-conduct__content .h3, .code-of-conduct__content .td-footer__links-item {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      padding-left: 0.75rem; }
+    .code-of-conduct__content p {
+      margin-bottom: 1rem;
+      font-size: 1rem; }
+    .code-of-conduct__content ul {
+      margin-bottom: 1.5rem;
+      padding-left: 0;
+      list-style: none; }
+      .code-of-conduct__content ul li {
+        margin-bottom: 0.75rem;
+        line-height: 1.6;
+        padding-left: 2rem;
+        position: relative; }
+        .code-of-conduct__content ul li::before {
+          content: '•';
+          position: absolute;
+          left: 0;
+          color: #2196F3;
+          font-size: 1.5rem;
+          line-height: 1.2;
+          font-weight: bold; }
+    .code-of-conduct__content a {
+      color: #2196F3;
+      text-decoration: underline; }
+      .code-of-conduct__content a:hover {
+        color: #0b7dda;
+        text-decoration: underline; }
 
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
