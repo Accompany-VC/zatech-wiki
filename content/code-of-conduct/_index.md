@@ -2,9 +2,11 @@
 title = "ZATech Slack - Code of Conduct"
 +++
 
-“ZATech” in this document refers to the ZATech Slack organization at https://zatech.slack.com/. “The administrators” refers to the administrators on this organization, which can be accessed here, or by accessing "Workspace Directory" in the top-right drop-down menu on the web, and from the settings button next to name and title select Admins. (You must be a member of the organization to view.)
+----------------------------------
+“ZATech” in this document refers to the ZATech Slack organization at https://zatech.slack.com/. “The administrators” refers to the administrators on this organization, which can be accessed [here](https://zatech.slack.com/?redir=%2Faccount%2Fworkspace-settings#admins), or by accessing "Workspace Directory" in the top-right drop-down menu on the web, and from the settings button next to name and title select Admins. (You must be a member of the organization to view.)
 
 ## TL;DR
+----------------------------------
 
 When posting:
 
@@ -21,6 +23,7 @@ In general:
 This is a safe space, let's keep it that way.
 
 ## General guidelines
+----------------------------------
 
 Be kind. Don't be snarky. Comments should get more thoughtful and substantive, not less, as a topic gets more divisive.
 
@@ -33,6 +36,7 @@ Eschew flamebait. Don't introduce flamewar topics unless you have something genu
 Please don't post shallow dismissals, especially of other people's work, thoughts or opinions. A good critical comment teaches us something.
 
 ## Channels
+----------------------------------
 
 Our conversation is split into channels. Generally, any discussion should be related to the theme in the channel. You can infer the purpose of a channel by:
 
@@ -44,9 +48,9 @@ ZATech aims to provide a space for specific technical communities to gather, sha
 
 ### On topic channels
 
-Our main public channels are dedicated to specific technologies, programming languages, frameworks, and technical disciplines. For example #php, #typescript, #python etc. These spaces are intended for in-depth, focused discussions related to their respective topics.
+Our main public channels are dedicated to specific technologies, programming languages, frameworks, and technical disciplines. For example [#php](https://zatech.slack.com/archives/C07AVU84V), [#typescript](https://zatech.slack.com/archives/C6CLD2STG), [#python](https://zatech.slack.com/archives/C07RJNL8N) etc. These spaces are intended for in-depth, focused discussions related to their respective topics.
 
-There are also slightly adjacent channels such as #jobpostings or #freelance-discuss which provide value to our target audience of technical professionals.
+There are also slightly adjacent channels such as [#jobpostings](https://zatech.slack.com/archives/C1RAZB24S) or [#freelance-discuss](https://zatech.slack.com/archives/C0JEGJ5AT) which provide value to our target audience of technical professionals.
 
 ### Off topic channels
 
@@ -59,6 +63,7 @@ These off-topic spaces are valuable for networking, community building, and prov
 Private channels are invite-only, and often do not include any members of the Admin team. If you create or are invited to a private channel, you are still expected to follow our code of conduct. While we welcome any reports about private channels that break our code of conduct, we cannot directly moderate them by intervening in discussions or removing messages.
 
 ## No harassment, online or offline
+----------------------------------
 
 ZATech is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form.
 
@@ -86,12 +91,14 @@ Harassment includes:
 - Publication of non-harassing private communication
 
 ## Unsolicited private messages (DMs)
+----------------------------------
 
 While the community aims to be a place for members of the community to meet and connect, it's also important to respect each other's privacy. In general, it's polite to ask in a public channel for permission to DM another member before doing so.
 
 We take a strong stance to any DM spam. If you send unsolicited self-promotional messages by DM to any of our members, you may be banned from our community without further warning.
 
 ## Conduct specific to job postings and recruitment activities
+----------------------------------
 
 ZATech is first and foremost intended to be a safe space for people to talk, share and collaborate. Not somewhere they'll be solicited unless it's expressly requested. Therefore, the following are specific conditions regarding job postings and recruitment.
 
@@ -103,6 +110,7 @@ ZATech is first and foremost intended to be a safe space for people to talk, sha
 - If you want to advertise an opportunity for another company (e.g. for a friend, as a favour, without any reward), please rather ask someone from the company to join and post directly, or if that is impossible then ask the admin team for permission before posting and explain why.
 
 ## Reporting
+----------------------------------
 
 If you are being harassed by a member of ZATech, notice that someone else is being harassed, or have any other concerns there are a few methods for reporting. Administrators will respond as soon as they are able. If the person who is harassing you is on the admin team, they will recuse themselves from handling your incident. Listed from most public to most anonymous:
 
@@ -110,7 +118,7 @@ If you are being harassed by a member of ZATech, notice that someone else is bei
 - Create a private channel with the admins
   - Create a private channel called admins-$YOUR_USERNAME, e.g. admins-cdanvers
   - Invite the admin team to your new private channel using /invite @adminteam
-- DM an administrator
+- DM an [administrator](https://zatech.slack.com/?redir=%2Faccount%2Fworkspace-settings#admins)
 
 This code of conduct applies to ZATech spaces, but if you are being harassed by a member of ZATech outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by ZATech members, especially the administrators, seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from ZATech based on their past behavior, including behavior outside ZATech spaces and behavior towards people who are not members of the ZATech community.
 
@@ -119,6 +127,7 @@ In order to protect volunteers from abuse and burnout, we reserve the right to r
 We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we’ve received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of ZATech members or the general public. We will not name harassment victims without their affirmative consent.
 
 ## Unacceptable Content
+----------------------------------
 
 The ZATech community is a collection of professionals, as such it is expected that the content made available by members of the community should at all times adhere to the acceptable content policy. This policy is intended to protect the community's image, as well as the image of its members, through restrictions on certain classes of content which may be deemed to be unsuitable in a work or family context.
 
@@ -130,12 +139,13 @@ Unacceptable content is content that is generally covered by South African law, 
 - Depictions of physical or emotional abuse, either in graphic or text form.
 - Persecution of any individual as a result of their race, gender, religion or other physical traits.
 - Material intended to, without basis, harm the reputation of any individual whether a member or not.
-- Unsolicited advertising with the exception of job offers in the #jobpostings channel.
+- Unsolicited advertising with the exception of job offers in the [#jobpostings](/channels/jobpostings/) channel.
 - Links, or links to pages, for the purpose of monetization of user views and which provide no value to the ZATech community.
 - Content infringing on copyright laws.
 - Content in the above categories will be immediately removed, and the poster in most cases will be banned without further warning from the Admin team.
 
 ## Discouraged content
+----------------------------------
 
 Some content is discouraged by our community, though not illegal or covered under the Unacceptable Content guidelines above.
 
@@ -238,6 +248,7 @@ When deciding whether or not a message should be removed, we consider the follow
 As with divisive content, we deliberately do not codify exactly what is and isn't permitted around promotional messages as it just leads to bad actors finding loopholes and wasting our time. The admin team will use their discretion to remove promotional messages. If you aren't sure if your message will be classified as promotional, feel free to ask before posting.
 
 ## Consequences
+----------------------------------
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
@@ -246,19 +257,23 @@ If a participant engages in harassing behavior, the administrators may take any 
 Intentionally evading exclusions, bans, suspensions, restrictions, or otherwise interfering with the admin team's decisions and actions are not permitted.
 
 ## Terms and Conditions
+----------------------------------
 
 The Operators may, but are not obligated to, monitor or review any areas on the Slack where users transmit or post communications or communicate solely with each other, including but not limited to public and private channels, and the content of any such communications. The Operators, however, will have no liability related to the content of any such communications, whether or not arising under the laws of copyright, libel, privacy, obscenity, or otherwise. The Operators may edit or remove content on the Slack Workspace at their discretion at any time.
 
 ## Privacy and AI-assisted moderation
+----------------------------------
 
 By posting content on ZATech you are sharing that data with ZATech, with Slack, and with our partners. Members may report content to us that they think violates the code of conduct. Generally, all content is retained indefinitely.
 
 We further use tools such as LLMs to assist in moderating all content on the platform. Messages you send may be sent to OpenAI as part of our moderation automation tooling. Any such messages are retained by OpenAI for up to 30 days and are not used for training.
 
 ## Changes
+----------------------------------
 
 If you feel there are aspects to this code of conduct which should be modified, please open a pull request with your suggested changes at https://github.com/zatech/code-of-conduct.
 
 ## Credits
+----------------------------------
 
-This Code of Conduct is heavily based on the LGBTQ in Tech Code of Conduct and the Offline First Code of Conduct for Slack.
+This Code of Conduct is heavily based on the [LGBTQ in Tech Code of Conduct](https://lgbtq.technology/coc.html) and the [Offline First Code of Conduct for Slack.](https://offlinefirst.org/code-of-conduct/)

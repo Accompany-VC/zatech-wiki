@@ -32,7 +32,7 @@ title = 'ZATech Wiki'
     url = "/code-of-conduct/"
     weight = 50
   [[menu.main]]
-    name = "Return to the Website"
+    name = "Return to Website"
     url = "https://zatech-website.pages.dev"
     weight = 60
 

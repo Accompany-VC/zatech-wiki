@@ -19937,17 +19937,15 @@ div.drawioframe {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem; }
-  .code-of-conduct__title {
+  .code-of-conduct__header {
     margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 2px solid white;
-    display: inline-block; }
-    .code-of-conduct__title h1, .code-of-conduct__title .h1 {
+    padding-bottom: 1.5rem; }
+    .code-of-conduct__header h1, .code-of-conduct__header .h1 {
+      padding-bottom: 1rem;
       margin: 0 0.5rem 0;
       font-size: 2.5rem;
-      text-align: center;
       font-weight: 700; }
-    .code-of-conduct__title .subtitle {
+    .code-of-conduct__header .subtitle {
       font-size: 1.2rem;
       margin: 0; }
   .code-of-conduct__content {
@@ -19957,9 +19955,7 @@ div.drawioframe {
       font-weight: 700;
       margin-top: 2rem;
       margin-bottom: 1rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 2px solid white;
-      display: inline-block; }
+      padding-bottom: 0.75rem; }
     .code-of-conduct__content h3, .code-of-conduct__content .h3, .code-of-conduct__content .td-footer__links-item {
       font-size: 1.3rem;
       font-weight: 600;
