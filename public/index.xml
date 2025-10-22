@@ -37,11 +37,46 @@
       <description>&lt;p&gt;Follow this helpful flow chart to see if you&amp;rsquo;re allowed to post your job.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/faq/am-i-allowed-to-post-a-job.png&#34; alt=&#34;Am I allowed to post a job?&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If that comes to &amp;ldquo;Go for it&amp;rdquo;, then have a look at: &lt;a href=&#34;http://localhost:1313/faqs/wheredoipostmyjob&#34;&gt;Where Do I Post My Job&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Please note per the &lt;a href=&#34;https://github.com/zatech/code-of-conduct&#34;&gt;Code of Conduct&lt;/a&gt; that professional recruiting is not allowed.&lt;/p&gt;&#xA;&lt;p&gt;For job posting guidelines, see the &lt;a href=&#34;http://localhost:1313/jobpostings&#34;&gt;#jobpostings channel page&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
+      <title>announcements</title>
+      <link>http://localhost:1313/channels/announcements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/announcements/</guid>
+      <description>&lt;h1 id=&#34;announcements&#34;&gt;#announcements&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Official announcements and important updates for the ZATech community.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;17,952 members&lt;/strong&gt; • &lt;strong&gt;Created: January 6, 2015&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Stay informed about important community-wide announcements, policy updates, and official ZATech news.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>announcements-community</title>
+      <link>http://localhost:1313/channels/announcements-community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/announcements-community/</guid>
+      <description>&lt;h1 id=&#34;announcements-community&#34;&gt;#announcements-community&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Community-driven announcements for events and activities from members.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;8,294 members&lt;/strong&gt; • &lt;strong&gt;Created: November 27, 2020&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Share and discover events, meetups, and other community announcements organized by ZATech members for the broader community.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
       <title>Commercial channels</title>
       <link>http://localhost:1313/pages/commercial-channels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pages/commercial-channels/</guid>
       <description>&lt;p&gt;ZATech does not allow commercial activity on our Slack workspace, with narrow exceptions for specific designated channels. These channels exist to provide organized spaces for commercial interactions while keeping the rest of the community focused on technical discussions and knowledge sharing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;allowed-commercial-channels&#34;&gt;Allowed commercial channels&lt;/h2&gt;&#xA;&lt;h3 id=&#34;job-related-channels&#34;&gt;Job-related channels&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;#jobpostings&lt;/strong&gt; - This channel is exclusively for advertising full-time jobs. All job postings must be submitted through &lt;a href=&#34;https://sboj.dev&#34;&gt;sboj.dev&lt;/a&gt;. These positions should be standard full-time employment opportunities under the standard employment conditions in the relevant country (usually South Africa).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>developers</title>
+      <link>http://localhost:1313/channels/developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/developers/</guid>
+      <description>&lt;h1 id=&#34;developers&#34;&gt;#developers&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;General discussion for software developers on coding, tools, and development practices.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;3,983 members&lt;/strong&gt; • &lt;strong&gt;Created: August 19, 2015&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Connect with fellow developers to discuss programming challenges, share knowledge, and explore software development topics.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>freelance-discuss</title>
+      <link>http://localhost:1313/channels/freelance-discuss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/freelance-discuss/</guid>
+      <description>&lt;h1 id=&#34;freelance-discuss&#34;&gt;#freelance-discuss&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Discussion and advice for freelancers navigating independent work.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;2,047 members&lt;/strong&gt; • &lt;strong&gt;Created: January 14, 2016&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Share tips, ask for advice, and discuss the challenges and opportunities of freelancing in the tech industry.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>freelance-jobpostings</title>
+      <link>http://localhost:1313/channels/freelance-jobpostings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/freelance-jobpostings/</guid>
+      <description>&lt;h1 id=&#34;freelance-jobpostings&#34;&gt;#freelance-jobpostings&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Find and post freelance and contract opportunities in the South African tech industry.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;5,073 members&lt;/strong&gt; • &lt;strong&gt;Created: April 13, 2018&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Connect freelancers with short-term projects, contract work, and freelance opportunities across various tech disciplines.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>How do I create a Slack like this one?</title>
@@ -79,11 +114,32 @@
       <description>&lt;p&gt;Firstly make sure that both:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/faqs/canipostajob&#34;&gt;I&amp;rsquo;m allowed to post a job&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/faqs/wheredoipostmyjob&#34;&gt;I&amp;rsquo;m in the right place to post my job&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To post a job opportunity in &lt;a href=&#34;https://zatech.slack.com/archives/C1RAZB24S&#34;&gt;#jobpostings&lt;/a&gt; you need to use &lt;strong&gt;&lt;a href=&#34;https://sboj.dev/zatech&#34;&gt;Sboj.dev&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Make sure you sign up as an &amp;ldquo;Employer&amp;rdquo;. Create a new &amp;ldquo;Seeking Role&amp;rdquo; entry, add all the relevant details, connect your Slack account and submit it for approval.&lt;/p&gt;&#xA;&lt;p&gt;If you run into any trouble, please reach out either in the &lt;a href=&#34;https://zatech.slack.com/archives/C04P9N0198T&#34;&gt;#sboj&lt;/a&gt; channel or mail &lt;a href=&#34;hi@sboj.dev&#34;&gt;hi@sboj.dev&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>introductions</title>
+      <link>http://localhost:1313/channels/introductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/introductions/</guid>
+      <description>&lt;h1 id=&#34;introductions&#34;&gt;#introductions&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Introduce yourself to the ZATech community and connect with fellow tech professionals.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;16,103 members&lt;/strong&gt; • &lt;strong&gt;Created: July 20, 2016&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Share who you are, your background, and how you fit into the South African tech space. Connect with community members and make yourself known.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
       <title>Is it self promotion?</title>
       <link>http://localhost:1313/faqs/getting-started/isitselfpromotion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/faqs/getting-started/isitselfpromotion/</guid>
       <description>&lt;p&gt;Our Code of Conduct discourages self-promotion, but definining self-promotion is somewhat of a grey area.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t spam the channels with links, or links to pages, for the purpose of monetization of user views and which provide no value to the community&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;If you think your own project provides value and interest to the community, you can sometimes share it anyway, even if you have a financial incentive for doing so.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>jobpostings-discuss</title>
+      <link>http://localhost:1313/channels/jobpostings-discuss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/jobpostings-discuss/</guid>
+      <description>&lt;h1 id=&#34;jobpostings-discuss&#34;&gt;#jobpostings-discuss&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Discuss job opportunities, hiring trends, and employment topics in tech.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;2,315 members&lt;/strong&gt; • &lt;strong&gt;Created: April 22, 2015&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Have conversations about job postings, hiring practices, salary discussions, and career-related topics in the South African tech industry.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>jobseekers</title>
+      <link>http://localhost:1313/channels/jobseekers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/jobseekers/</guid>
+      <description>&lt;h1 id=&#34;jobseekers&#34;&gt;#jobseekers&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;For professionals actively seeking employment opportunities in tech.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;3,306 members&lt;/strong&gt; • &lt;strong&gt;Created: August 29, 2016&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Share your availability, skills, and job search updates. Connect with potential employers and get career advice from the community.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>loadshedding</title>
@@ -105,6 +161,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/channels/private-channels/</guid>
       <description>&lt;h1 id=&#34;private-channels&#34;&gt;Private Channels&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A directory of invite-only or private spaces within ZATech.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Private channels allow discussion of sensitive or divisive topics without public moderation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Code of Conduct &lt;strong&gt;still applies&lt;/strong&gt;. Misconduct (racism, harassment, piracy, etc.) is not tolerated.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zatech.slack.com/archives/C02A7RUAJ12/p1628004300001500&#34;&gt;#covid&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zatech.slack.com/archives/C02A7RUAJ12/p1628004133001000&#34;&gt;#politics-private&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zatech.slack.com/archives/C02A7RUAJ12/p1629714436018800&#34;&gt;#politics-private-za&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zatech.slack.com/archives/C02A7RUAJ12/p1628004143001200&#34;&gt;#rant2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Meta discussion about private channels happens in &lt;a href=&#34;https://zatech.slack.com/archives/C02A7RUAJ12&#34;&gt;#private-channel-directory&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>random</title>
+      <link>http://localhost:1313/channels/random/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/random/</guid>
+      <description>&lt;h1 id=&#34;random&#34;&gt;#random&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A casual space for off-topic conversations, humor, and interesting links.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;5,733 members&lt;/strong&gt; • &lt;strong&gt;Created: January 6, 2015&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Share non-work related banter, interesting articles, humor, and anything else that doesn&amp;rsquo;t fit into work-focused channels.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>startups</title>
+      <link>http://localhost:1313/channels/startups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/channels/startups/</guid>
+      <description>&lt;h1 id=&#34;startups&#34;&gt;#startups&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Support, advice, and discussion for entrepreneurs and startup founders.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;2,332 members&lt;/strong&gt; • &lt;strong&gt;Created: June 30, 2015&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Connect with fellow entrepreneurs to share experiences, seek guidance, and discuss the challenges of building and scaling startups.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>ux-ui</title>

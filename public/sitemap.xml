@@ -17,11 +17,21 @@
   </url><url>
     <loc>http://localhost:1313/faqs/job-postings/canipostajob/</loc>
   </url><url>
+    <loc>http://localhost:1313/channels/announcements/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/announcements-community/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/</loc>
   </url><url>
     <loc>http://localhost:1313/pages/commercial-channels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/developers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/freelance-discuss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/freelance-jobpostings/</loc>
   </url><url>
     <loc>http://localhost:1313/faqs/</loc>
   </url><url>
@@ -37,9 +47,15 @@
   </url><url>
     <loc>http://localhost:1313/faqs/job-postings/howtojobpost/</loc>
   </url><url>
+    <loc>http://localhost:1313/channels/introductions/</loc>
+  </url><url>
     <loc>http://localhost:1313/faqs/getting-started/isitselfpromotion/</loc>
   </url><url>
     <loc>http://localhost:1313/faqs/job-postings/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/jobpostings-discuss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/jobseekers/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/loadshedding/</loc>
   </url><url>
@@ -48,6 +64,10 @@
     <loc>http://localhost:1313/pages/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/private-channels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/random/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/startups/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
