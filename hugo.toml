@@ -23,7 +23,7 @@ title = 'ZATech Wiki'
   [[menu.main]]
     name = "FAQs"
     url = "/faqs/"
-    weight = 10  
+    weight = 10
   [[menu.main]]
     name = "Channels"
     url = "/channels/"
