@@ -11,11 +11,21 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/channels/offerzen/</loc>
+  </url><url>
     <loc>http://localhost:1313/channels/jobpostings/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/algorithms/</loc>
   </url><url>
     <loc>http://localhost:1313/faqs/job-postings/canipostajob/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/announcements/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/announcements-community/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/aws/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/capetown/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -23,7 +33,19 @@
   </url><url>
     <loc>http://localhost:1313/pages/commercial-channels/</loc>
   </url><url>
+    <loc>http://localhost:1313/channels/developers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/devops/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/freelance-discuss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/freelance-jobpostings/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/freelance-jobseekers/</loc>
+  </url><url>
     <loc>http://localhost:1313/faqs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/front-end-dev/</loc>
   </url><url>
     <loc>http://localhost:1313/faqs/getting-started/</loc>
   </url><url>
@@ -37,9 +59,17 @@
   </url><url>
     <loc>http://localhost:1313/faqs/job-postings/howtojobpost/</loc>
   </url><url>
+    <loc>http://localhost:1313/channels/introductions/</loc>
+  </url><url>
     <loc>http://localhost:1313/faqs/getting-started/isitselfpromotion/</loc>
   </url><url>
+    <loc>http://localhost:1313/channels/javascript/</loc>
+  </url><url>
     <loc>http://localhost:1313/faqs/job-postings/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/jobpostings-discuss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/jobseekers/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/loadshedding/</loc>
   </url><url>
@@ -49,7 +79,17 @@
   </url><url>
     <loc>http://localhost:1313/channels/private-channels/</loc>
   </url><url>
+    <loc>http://localhost:1313/channels/python/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/random/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/react/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/startups/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/tech-for-good/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/ux-ui/</loc>
   </url><url>
