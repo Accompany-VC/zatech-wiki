@@ -19991,6 +19991,89 @@ div.drawioframe {
         color: #0b7dda;
         text-decoration: underline; }
 
+/* Custom styles for Claude Code guide */
+.claude-guide {
+  /* Fix code block styling for dark theme */
+  /* Image styling - centered, limited size, rounded corners */
+  /* Ensure images don't overflow the content area */
+  /* Hero section styling */
+  /* Section intro styling */
+  /* Aside/callout styling */
+  /* Better spacing for headings with IDs */ }
+  .claude-guide pre {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #cbd5e1; }
+  .claude-guide code {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    color: #4ade80 !important; }
+  .claude-guide pre code {
+    background-color: transparent !important;
+    padding: 0;
+    color: #4ade80 !important; }
+  .claude-guide .md-figure {
+    margin: 2rem 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    overflow: hidden; }
+    .claude-guide .md-figure img {
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      display: inline-block; }
+    .claude-guide .md-figure figcaption {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      color: rgba(203, 213, 225, 0.75);
+      font-style: italic; }
+  .claude-guide img {
+    max-width: 100%;
+    height: auto; }
+  .claude-guide .claude-hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(135deg, rgba(46, 163, 255, 0.1) 0%, rgba(46, 163, 255, 0.05) 100%);
+    border-radius: 12px; }
+    .claude-guide .claude-hero__title {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      background: linear-gradient(135deg, #2ea3ff 0%, #60c5ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text; }
+    .claude-guide .claude-hero__subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      color: rgba(203, 213, 225, 0.9);
+      margin: 0; }
+  .claude-guide .claude-section-intro {
+    font-size: 1.15rem;
+    font-style: italic;
+    color: rgba(203, 213, 225, 0.85);
+    margin: 1.5rem 0; }
+  .claude-guide .claude-aside {
+    background-color: rgba(46, 163, 255, 0.08);
+    border-left: 4px solid #2ea3ff;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0 6px 6px 0; }
+    .claude-guide .claude-aside strong {
+      color: #2ea3ff; }
+  .claude-guide h1[id], .claude-guide [id].h1,
+  .claude-guide h2[id],
+  .claude-guide [id].h2,
+  .claude-guide h3[id],
+  .claude-guide [id].h3,
+  .claude-guide [id].td-footer__links-item {
+    scroll-margin-top: 6rem; }
+
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {
