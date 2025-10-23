@@ -6,25 +6,37 @@ title = "writing"
 
 > A community space for writers of guides, tutorials, technical docs, and more.
 
+**137 members** • **Created: January 17, 2019**
+
 ---
 
-## Purpose
+<details open>
+<summary><strong>Purpose</strong></summary>
+
 Support members who write professionally or as a hobby, and create a place for feedback.
 
----
+</details>
 
-## Activities
+<details>
+<summary><strong>Activities</strong></summary>
+
 - Talks and meetups about writing  
 - Peer feedback sessions  
-- Sharing drafts and resources  
+- Sharing drafts and resources
 
----
+</details>
 
-## Resources
+<details>
+<summary><strong>Resources</strong></summary>
+
 - [Technical writing resources (GitHub)](https://github.com/sixhobbits/technical-writing)
 
----
+</details>
 
-## Related Channels
+<details>
+<summary><strong>Related Channels</strong></summary>
+
 - [#blogging](/channels/blogging/)
 - [#career-development](/channels/career-development/)
+
+</details>
