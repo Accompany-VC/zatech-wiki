@@ -170,6 +170,26 @@
   }
 }
 
+.web-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #2196F3;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #0b7dda;
+    text-decoration: underline;
+  }
+}
+
+.return-text {
+  font-size: 0.95rem;
+  color: lighten($body-color, 12%);
+  margin-top: 1rem;
+}
+
 @keyframes faq-fade {
   from {
     opacity: 0;
