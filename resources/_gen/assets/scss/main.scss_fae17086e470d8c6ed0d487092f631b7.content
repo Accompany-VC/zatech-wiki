@@ -20083,6 +20083,37 @@ ul li {
   margin-left: auto;
   margin-right: auto; }
 
+/* Blog post metadata */
+.blog-post-meta {
+  margin: 1.5rem 0 2.5rem;
+  color: rgba(203, 213, 225, 0.85);
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; }
+
+.blog-post-meta__primary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem; }
+
+.blog-post-meta__author {
+  display: inline-flex;
+  gap: 0.4rem; }
+
+.blog-post-meta__author a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px; }
+
+.blog-post-meta__date {
+  font-style: italic;
+  opacity: 0.85; }
+
+.blog-post-meta__original a {
+  color: #2ea3ff; }
+
 /* Tighten top space for first headings across pages */
 h1:first-child, .h1:first-child {
   margin-top: 0.9rem; }
