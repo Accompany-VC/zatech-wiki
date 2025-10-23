@@ -3,6 +3,7 @@ title = "Payment Providers in South Africa"
 date = 2024-11-01T00:00:00Z
 summary = "A living list of ZA-friendly payment providers, MoR options, fees, and notes."
 author = "Gareth Dwyer"
+author_social = "https://dwyer.co.za/"
 +++
 
 Stripe has quickly become the default payment provider for startups around the world, but it's not available in South Africa. If you want to run a SaaS or accept online payments in South Africa, and don't have an international entity to bill through, you're probably looking for one of the following.
