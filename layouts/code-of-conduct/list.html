@@ -1,0 +1,15 @@
+{{define "main"}}
+<section class="code-of-conduct-page">
+  <header class="code-of-conduct-page__header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="code-of-conduct-page__intro">
+      {{ . }}
+    </div>
+    {{ else }}
+    <p>To view our community guidelines, please visit <a href="https://github.com/zatech/code-of-conduct" class="web-link">this page on GitHub.</a></p>
+    {{ end }}
+    </header>
+</section>
+
+{{ end }}
