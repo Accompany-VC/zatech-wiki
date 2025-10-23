@@ -1,6 +1,7 @@
 /* FAQ Page Styles */
 .faq-page {
-  max-width: 760px;
+  width: 100%;
+  max-width: $content-max-width;
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }

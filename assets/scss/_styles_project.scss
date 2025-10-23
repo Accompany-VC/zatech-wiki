@@ -6,8 +6,8 @@
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {
-    width: 56%;
-    max-width: 56%;
+    width: 100%;
+    max-width: $content-max-width;
     margin-left: auto;
     margin-right: auto;
     padding: 4rem 2rem;
@@ -105,8 +105,8 @@ ul li {
 /* Align blog list page like FAQs/channels */
 .td-blog.list .td-main,
 .td-blog.section .td-main {
-  width: 56%;
-  max-width: 56%;
+  width: 100%;
+  max-width: $content-max-width;
   margin-left: auto;
   margin-right: auto;
 }

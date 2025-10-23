@@ -19774,7 +19774,8 @@ div.drawioframe {
 /* OG-inspired layout and typography overrides for Docsy */
 /* FAQ Page Styles */
 .faq-page {
-  max-width: 760px;
+  width: 100%;
+  max-width: 880px;
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem; }
 
@@ -19934,7 +19935,8 @@ div.drawioframe {
     padding-right: 0; } }
 
 .code-of-conduct {
-  max-width: 900px;
+  width: 100%;
+  max-width: 880px;
   margin: 0 auto;
   padding: 2rem; }
   .code-of-conduct__header {
@@ -19992,8 +19994,8 @@ div.drawioframe {
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {
-    width: 56%;
-    max-width: 56%;
+    width: 100%;
+    max-width: 880px;
     margin-left: auto;
     margin-right: auto;
     padding: 4rem 2rem; } }
@@ -20076,8 +20078,8 @@ ul li {
 /* Align blog list page like FAQs/channels */
 .td-blog.list .td-main,
 .td-blog.section .td-main {
-  width: 56%;
-  max-width: 56%;
+  width: 100%;
+  max-width: 880px;
   margin-left: auto;
   margin-right: auto; }
 

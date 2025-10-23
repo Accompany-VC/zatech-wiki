@@ -11,8 +11,6 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/channels/offerzen/</loc>
-  </url><url>
     <loc>http://localhost:1313/channels/jobpostings/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/algorithms/</loc>
@@ -74,6 +72,8 @@
     <loc>http://localhost:1313/channels/loadshedding/</loc>
   </url><url>
     <loc>http://localhost:1313/channels/movies-and-tv/</loc>
+  </url><url>
+    <loc>http://localhost:1313/channels/offerzen/</loc>
   </url><url>
     <loc>http://localhost:1313/pages/</loc>
   </url><url>
