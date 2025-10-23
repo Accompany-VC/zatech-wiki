@@ -1,9 +1,9 @@
 +++
 title = "Payment Providers in South Africa"
-date = 2023-11-01T00:00:00Z
+date = 2024-11-01T00:00:00Z
 summary = "A living list of ZA-friendly payment providers, MoR options, fees, and notes."
-author = "ZATech community"
-+++ 
+author = "Gareth Dwyer"
++++
 
 Stripe has quickly become the default payment provider for startups around the world, but it's not available in South Africa. If you want to run a SaaS or accept online payments in South Africa, and don't have an international entity to bill through, you're probably looking for one of the following.
 
@@ -69,16 +69,28 @@ This page contains mainly a list of payment providers, but also information abou
 - Does not support subscriptions (https://support.yoco.help/s/article/Gateway-FAQs)
 - ZAR only
 
-## providers by feature / use cases
+## Providers by feature / use cases
 
-### billing in USD but receiving ZAR
+To be completed
+
+### Billing in USD but receiving ZAR
+
+To be completed
 
 ### "Pay Now" buttons on invoices
 
+To be completed
+
 ### Accepting online Credit Card payments
+
+To be completed
 
 ### Accepting international bank transfers
 
+To be completed
+
 ### Accepting 'instant' EFTs
 
-Hello world
+To be completed
+
+For more information, please pester Gareth Dwyer on Slack to complete this guide :)
