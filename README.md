@@ -9,7 +9,7 @@ Requirements:
 - Go (for Hugo Modules)
 - Node.js 18+ (for PostCSS used by Docsy)
 
-Steps:
+Steps: 
 ```bash
 # 1) Clone
 git clone https://github.com/zatech/zatech-wiki.git
