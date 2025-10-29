@@ -3,7 +3,7 @@
   width: 100%;
   max-width: $content-max-width;
   margin: 0 auto;
-  padding: 3rem 1.5rem 4rem;
+  padding: 0 1.5rem 4rem;
 }
 
 .faq-page__header {
@@ -189,6 +189,10 @@
   font-size: 0.95rem;
   color: lighten($body-color, 12%);
   margin-top: 1rem;
+}
+
+.faq-list-page .td-main {
+  padding-top: 1rem;
 }
 
 @keyframes faq-fade {

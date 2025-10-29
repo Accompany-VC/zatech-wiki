@@ -19777,7 +19777,7 @@ div.drawioframe {
   width: 100%;
   max-width: 880px;
   margin: 0 auto;
-  padding: 3rem 1.5rem 4rem; }
+  padding: 0 1.5rem 4rem; }
 
 .faq-page__header {
   margin-bottom: 2.5rem; }
@@ -19920,6 +19920,9 @@ div.drawioframe {
   font-size: 0.95rem;
   color: #f2f4f7;
   margin-top: 1rem; }
+
+.faq-list-page .td-main {
+  padding-top: 1rem; }
 
 @keyframes faq-fade {
   from {
@@ -20074,6 +20077,28 @@ div.drawioframe {
   .claude-guide [id].td-footer__links-item {
     scroll-margin-top: 6rem; }
 
+@media (min-width: 768px) {
+  .channels-list .td-main ul:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0; } }
+
+@media (min-width: 768px) {
+  .channels-list .td-main ul:nth-of-type(2) li {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left; } }
+
+.channels-list .td-main ul:nth-of-type(2) li a {
+  text-decoration: none;
+  font-weight: 600; }
+
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {
@@ -20164,14 +20189,15 @@ ul li {
   width: 100%;
   max-width: 880px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-top: 0; }
 
 /* Blog listing */
 .blog-list {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
-  margin-top: 2rem; }
+  margin-top: 0; }
 
 .blog-list__item {
   display: flex;
@@ -20239,5 +20265,8 @@ ul li {
 /* Tighten top space for first headings across pages */
 h1:first-child, .h1:first-child {
   margin-top: 0.9rem; }
+
+.td-blog.list h1:first-child, .td-blog.list .h1:first-child {
+  margin-top: 0; }
 
 /*# sourceMappingURL=main.css.map */
