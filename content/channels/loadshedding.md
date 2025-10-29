@@ -48,3 +48,5 @@ Share experiences and technical advice about handling loadshedding in South Afri
 - [Slack thread: consumption estimates](https://zatech.slack.com/archives/CG4HBE0NB/p1669313627523599)
 
 </details>
+
+<a href="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background-color: #611f69; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Go to Slack Channel</a>
