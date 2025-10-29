@@ -1,0 +1,26 @@
+.channels-list .td-main ul:nth-of-type(2) {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.channels-list .td-main ul:nth-of-type(2) li {
+  @media (min-width: 768px) {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
+
+.channels-list .td-main ul:nth-of-type(2) li a {
+  text-decoration: none;
+  font-weight: 600;
+}

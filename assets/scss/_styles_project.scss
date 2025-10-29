@@ -3,6 +3,7 @@
 @import "faqs";
 @import "code-of-conduct";
 @import "claude-guide";
+@import "channels";
 
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
@@ -110,6 +111,7 @@ ul li {
   max-width: $content-max-width;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 0;
 }
 
 /* Blog listing */
@@ -117,7 +119,7 @@ ul li {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .blog-list__item {
@@ -199,4 +201,8 @@ ul li {
 /* Tighten top space for first headings across pages */
 h1:first-child {
   margin-top: 0.9rem;
+}
+
+.td-blog.list h1:first-child {
+  margin-top: 0;
 }

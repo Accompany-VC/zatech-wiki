@@ -1,5 +1,6 @@
 +++
 title = "Channel Pages"
+body_class = "channels-list"
 +++
 
 # Channel Directory
@@ -10,9 +11,9 @@ Browse ZATech community channels below.
 
 ## Special Channels
 
+- [#ask-the-admins](/channels/ask-the-admins/) - A channel to ask the admins questions
 - [#announcements](/channels/announcements/) - Official community announcements
 - [#introductions](/channels/introductions/) - Introduce yourself to the community
-- [Private channels](/channels/private-channels/) - Invite-only discussion spaces
 
 ---
 
@@ -42,3 +43,9 @@ Browse ZATech community channels below.
 - [#tech-for-good](/channels/tech-for-good/)
 - [#ux-ui](/channels/ux-ui/)
 - [#writing](/channels/writing/)
+
+---
+
+## Private Channels
+
+- [Private channels](/channels/private-channels/) - Invite-only discussion spaces
