@@ -16,3 +16,5 @@ title = "announcements-community"
 Share and discover events, meetups, and other community announcements organized by ZATech members for the broader community.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C01FKUYUM1B" >}}

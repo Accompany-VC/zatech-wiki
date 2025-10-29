@@ -3,6 +3,7 @@
 @import "faqs";
 @import "code-of-conduct";
 
+
 /* Narrower reading width, centered, with generous padding on large screens */
 @media (min-width: 992px) {
   .td-main {
@@ -114,4 +115,16 @@ ul li {
 /* Tighten top space for first headings across pages */
 h1:first-child {
   margin-top: 0.9rem;
+}
+
+.channel-list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .channel-list-grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -16,3 +16,5 @@ title = "jobseekers"
 Share your availability, skills, and job search updates. Connect with potential employers and get career advice from the community.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C25SWLVF1" >}}
