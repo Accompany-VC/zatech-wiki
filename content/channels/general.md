@@ -19,4 +19,4 @@ A welcoming space for South African tech community members to engage in general 
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C2MPU0N72" >}}

@@ -19,4 +19,4 @@ Connect with South African Linux enthusiasts, sysadmins, and developers to discu
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C1WAB71SP" >}}

@@ -19,4 +19,4 @@ A community for South African tech professionals who love gaming. Discuss PC, co
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C072LKB8E" >}}

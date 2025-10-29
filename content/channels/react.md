@@ -17,4 +17,4 @@ A community for South African developers working with React and React Native. Di
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C1B9E0E1G" >}}

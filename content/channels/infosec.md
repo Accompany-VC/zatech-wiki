@@ -19,4 +19,4 @@ A channel for South African security professionals and developers committed to b
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C08MTNJ04" >}}

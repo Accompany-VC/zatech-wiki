@@ -17,4 +17,4 @@ Connect freelancers with short-term projects, contract work, and freelance oppor
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/CA6AG7TKL" >}}

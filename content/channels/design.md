@@ -19,4 +19,4 @@ A creative hub for South African designers and design-minded developers to discu
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C06TP7K89" >}}

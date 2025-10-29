@@ -19,4 +19,4 @@ Connect with South Africa's AI and machine learning community to discuss the lat
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C2M2BNRGB" >}}

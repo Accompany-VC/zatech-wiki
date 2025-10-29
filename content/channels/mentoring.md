@@ -19,4 +19,4 @@ A dedicated space for South African tech professionals to find mentors or become
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C2M99C08L" >}}

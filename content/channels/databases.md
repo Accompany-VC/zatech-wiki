@@ -19,4 +19,4 @@ Connect with South African database professionals and developers to discuss all 
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C0JS74ATT" >}}

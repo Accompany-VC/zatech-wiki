@@ -19,4 +19,4 @@ A welcoming and supportive channel for anyone in the South African tech communit
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/CPCCEECE8" >}}

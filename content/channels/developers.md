@@ -17,4 +17,4 @@ Connect with fellow developers to discuss programming challenges, share knowledg
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C09AT93HT" >}}

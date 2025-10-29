@@ -41,4 +41,4 @@ Support members who write professionally or as a hobby, and create a place for f
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/CFFTM7XQB" >}}

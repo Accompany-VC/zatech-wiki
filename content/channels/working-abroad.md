@@ -19,4 +19,4 @@ Connect with South African tech professionals to discuss international work oppo
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C0UHM3KNH" >}}

@@ -17,4 +17,4 @@ Stay informed about important community-wide announcements, policy updates, and 
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C03A23LKH" >}}

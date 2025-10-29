@@ -17,4 +17,4 @@ A space for Cape Town-based tech professionals to discuss local events, meetups,
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C2L34EKAQ" >}}

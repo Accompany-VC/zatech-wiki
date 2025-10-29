@@ -17,4 +17,4 @@ Connect with DevOps engineers and SREs across South Africa to discuss CI/CD, inf
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C0642V76Y" >}}

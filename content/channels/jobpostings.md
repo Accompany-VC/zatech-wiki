@@ -42,4 +42,4 @@ Use the [Jobposting tool](/faqs/howtojobpost) to format posts correctly.
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C1RAZB24S" >}}

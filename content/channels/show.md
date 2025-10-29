@@ -19,4 +19,4 @@ The one place in ZATech where self-promotion isn't just allowed - it's encourage
 
 ---
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C8CLU15LY" >}}

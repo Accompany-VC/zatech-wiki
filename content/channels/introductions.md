@@ -17,4 +17,4 @@ Share who you are, your background, and how you fit into the South African tech 
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C1TAXS02E" >}}

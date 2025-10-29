@@ -20088,7 +20088,10 @@ h1:first-child, .h1:first-child {
 .channel-list-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin: 2rem 0; }
+  gap: 2rem; }
+
+@media (max-width: 768px) {
+  .channel-list-grid {
+    grid-template-columns: 1fr; } }
 
 /*# sourceMappingURL=main.css.map */

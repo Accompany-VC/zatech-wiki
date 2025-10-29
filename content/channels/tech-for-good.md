@@ -17,4 +17,4 @@ A community for South African tech professionals interested in using their skill
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/C7H003QF3" >}}

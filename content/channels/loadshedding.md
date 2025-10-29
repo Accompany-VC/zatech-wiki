@@ -49,4 +49,4 @@ Share experiences and technical advice about handling loadshedding in South Afri
 
 </details>
 
-{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}
+{{< slack-button url="https://zatech.slack.com/archives/CG4HBE0NB" >}}
