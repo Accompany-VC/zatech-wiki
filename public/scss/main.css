@@ -20085,4 +20085,10 @@ ul li {
 h1:first-child, .h1:first-child {
   margin-top: 0.9rem; }
 
+.channel-list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0; }
+
 /*# sourceMappingURL=main.css.map */

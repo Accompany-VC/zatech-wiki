@@ -19,4 +19,4 @@ Connect with South African tech professionals to discuss international work oppo
 
 ---
 
-<a href="https://zatech.slack.com/archives/CHANNEL_ID" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background-color: #611f69; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Go to Slack Channel</a>
+{{< slack-button url="https://app.slack.com/client/T03A23LJR/C2M2BNRGB" >}}

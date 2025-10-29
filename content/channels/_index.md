@@ -19,7 +19,7 @@ Browse ZATech community channels below.
 
 ## Public Channels
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+<div class="channel-list-grid">
 
 <div>
 
