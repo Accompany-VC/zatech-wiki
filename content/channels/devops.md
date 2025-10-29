@@ -16,5 +16,3 @@ title = "devops"
 Connect with DevOps engineers and SREs across South Africa to discuss CI/CD, infrastructure as code, monitoring, and automation practices. Share experiences with tools, troubleshoot challenges, and stay updated on DevOps trends relevant to the South African tech industry.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C0642V76Y" >}}

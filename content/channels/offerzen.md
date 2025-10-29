@@ -16,5 +16,3 @@ title = "offerzen"
 A dedicated space for discussing OfferZen, the South African developer talent marketplace. Share your experiences, provide feedback on the platform, suggest improvements, and discuss how OfferZen fits into the local tech hiring landscape.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C1RAQ4G5U" >}}

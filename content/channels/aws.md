@@ -16,5 +16,3 @@ title = "aws"
 Connect with AWS practitioners across South Africa to discuss cloud architecture, services, best practices, and cost optimization. Share experiences with EC2, Lambda, S3, and other AWS services, discuss the Cape Town region, and get help with AWS challenges specific to working in South Africa.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C0KFNRVJQ" >}}

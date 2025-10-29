@@ -7,6 +7,15 @@ title = 'ZATech Wiki'
   description = "Community-run knowledge base for the South African tech community (ZATech)."
   offlineSearch = true
 
+[params.katex]
+  [params.katex.options]
+    delimiters = [
+      { left = "$$", right = "$$", display = true },
+      { left = "\\[", right = "\\]", display = true },
+      { left = "$", right = "$", display = false },
+      { left = "\\(", right = "\\)", display = false }
+    ]
+
 [params.ui]
   navbar_logo = false
 
@@ -14,7 +23,7 @@ title = 'ZATech Wiki'
   [[menu.main]]
     name = "FAQs"
     url = "/faqs/"
-    weight = 10  
+    weight = 10
   [[menu.main]]
     name = "Channels"
     url = "/channels/"

@@ -41,5 +41,3 @@ Use the [Jobposting tool](/faqs/howtojobpost) to format posts correctly.
 - [#internships](/channels/internships/)
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C1RAZB24S" >}}

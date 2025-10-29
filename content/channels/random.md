@@ -16,5 +16,3 @@ title = "random"
 Share non-work related banter, interesting articles, humor, and anything else that doesn't fit into work-focused channels.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C03A23LKM" >}}
