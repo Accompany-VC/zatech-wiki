@@ -16,3 +16,5 @@ title = "react"
 A community for South African developers working with React and React Native. Discuss components, hooks, state management, performance optimization, and the React ecosystem. Share knowledge about building web and mobile applications, troubleshoot issues, and stay current with React developments.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C1B9E0E1G" >}}

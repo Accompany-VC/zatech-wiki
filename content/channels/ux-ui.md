@@ -31,3 +31,5 @@ Help community members improve skills in UX and UI design.
 - [South African Product Developers Slack](https://zapd.co.za/)
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C8U38PM8C" >}}
