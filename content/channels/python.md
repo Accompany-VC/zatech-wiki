@@ -16,3 +16,5 @@ title = "python"
 Connect with the South African Python community to discuss Django, Flask, data science, machine learning, and everything Python. Share code, get help with challenges, and stay connected with local Python user groups including CTPUG (Cape Town) and PyGauteng meetups.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C07RJNL8N" >}}

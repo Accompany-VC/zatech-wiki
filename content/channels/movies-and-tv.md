@@ -32,3 +32,5 @@ Curate movie and TV recommendations from the community.
 - [#gaming](/channels/gaming/)
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C2LBZRBGQ" >}}

@@ -16,3 +16,5 @@ title = "announcements"
 Stay informed about important community-wide announcements, policy updates, and official ZATech news.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C03A23LKH" >}}

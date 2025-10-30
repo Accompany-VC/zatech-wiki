@@ -16,3 +16,5 @@ title = "capetown"
 A space for Cape Town-based tech professionals to discuss local events, meetups, job opportunities, and the unique aspects of working in the Mother City's tech scene. Share recommendations, organize gatherings, and connect with fellow Capetonians in tech.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C2L34EKAQ" >}}

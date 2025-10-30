@@ -16,3 +16,5 @@ title = "developers"
 Connect with fellow developers to discuss programming challenges, share knowledge, and explore software development topics.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C09AT93HT" >}}

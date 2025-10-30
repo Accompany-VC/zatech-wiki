@@ -1,8 +1,8 @@
 +++
-title = "ask-the-admins"
+title = "asktheadmins"
 +++
 
-# #ask-the-admins
+# #asktheadmins
 
 This channel is for asking questions to the ZATech administrators.
 
@@ -13,7 +13,7 @@ If you are being harassed by a member of ZATech, notice that someone else is bei
 There are a few ways to report an issue. Please choose the one you are most comfortable with. They are listed from most public to most private.
 
 ### Use the "Report an Issue" workflow
-You can use the "Report an Issue" workflow directly in the `#ask-the-admins` channel. This is the most public way to report an issue, but it is fast and effective.
+You can use the "Report an Issue" workflow directly in the `#asktheadmins` channel. This is the most public way to report an issue, but it is fast and effective.
 
 ### Create a private channel with the admins
 For a more private way to report an issue, you can create a private channel and invite the admin team.
@@ -33,3 +33,7 @@ Administrators will respond as soon as they are able. If the person who is haras
 We will take all good-faith reports of harassment by ZATech members, especially the administrators, seriously. This includes harassment outside our spaces and harassment that took place at any point in time.
 
 You can see a list of current administrators [here](https://zatech.slack.com/account/workspace-settings#admins).
+
+---
+
+{{< slack-button url="https://zatech.slack.com/archives/C1N2YMB4N" >}}

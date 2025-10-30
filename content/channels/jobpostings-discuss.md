@@ -16,3 +16,5 @@ title = "jobpostings-discuss"
 Have conversations about job postings, hiring practices, salary discussions, and career-related topics in the South African tech industry.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C04G25KJW" >}}

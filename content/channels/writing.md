@@ -40,3 +40,5 @@ Support members who write professionally or as a hobby, and create a place for f
 - [#career-development](/channels/career-development/)
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/CFFTM7XQB" >}}

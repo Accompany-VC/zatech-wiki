@@ -16,3 +16,5 @@ title = "freelance-discuss"
 Share tips, ask for advice, and discuss the challenges and opportunities of freelancing in the tech industry.
 
 </details>
+
+{{< slack-button url="https://zatech.slack.com/archives/C0JEGJ5AT" >}}
