@@ -1,5 +1,6 @@
 <div class="td-content">
   <p><a href="/blog/">← Back to blog</a></p>
   <h1>{{ .Title }}</h1>
+  {{ partial "blog/post-meta.html" . }}
   {{ .Content }}
 </div>

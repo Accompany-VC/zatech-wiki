@@ -16,5 +16,3 @@ title = "startups"
 Connect with fellow entrepreneurs to share experiences, seek guidance, and discuss the challenges of building and scaling startups.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C070SMRUH" >}}

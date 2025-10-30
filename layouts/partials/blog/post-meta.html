@@ -1,0 +1,30 @@
+{{- $page := . -}}
+{{- $author := $page.Params.author -}}
+{{- $social := $page.Params.author_social -}}
+{{- $original := $page.Params.original_url -}}
+{{- $date := $page.PublishDate | default $page.Date -}}
+{{- if or $author $date $original -}}
+  <div class="blog-post-meta">
+    <div class="blog-post-meta__primary">
+      {{- with $author -}}
+        <span class="blog-post-meta__author">
+          By
+          {{- if $social -}}
+            <a href="{{ $social }}" target="_blank" rel="me noopener noreferrer">{{ . }}</a>
+          {{- else -}}
+            {{- . -}}
+          {{- end -}}
+        </span>
+      {{- end -}}
+      {{- with $date -}}
+        <time datetime="{{ .Format "2006-01-02" }}" class="blog-post-meta__date">{{ .Format "2 Jan 2006" }}</time>
+      {{- end -}}
+    </div>
+    {{- with $original -}}
+      <div class="blog-post-meta__original">
+        Originally published at
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ . }}</a>
+      </div>
+    {{- end -}}
+  </div>
+{{- end -}}

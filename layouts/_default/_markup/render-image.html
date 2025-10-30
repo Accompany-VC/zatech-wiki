@@ -1,0 +1,8 @@
+{{- $src := .Destination | safeURL -}}
+{{- $alt := .Text | plainify -}}
+<figure class="md-figure">
+  <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" />
+  {{- with .Title }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>

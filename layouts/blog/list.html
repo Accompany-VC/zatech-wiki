@@ -2,10 +2,28 @@
   <div class="container-xxl td-main">
     <h1>{{ .Title }}</h1>
     {{ with .Content }}<div class="lead">{{ . }}</div>{{ end }}
-    <ul>
+    <div class="blog-list">
       {{ range .Pages.ByDate.Reverse }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ $date := .PublishDate | default .Date }}
+        <article class="blog-list__item">
+          <h2 class="blog-list__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <div class="blog-list__meta">
+            {{ with .Params.author }}
+              <span class="blog-list__author">{{ . }}</span>
+            {{ end }}
+            {{ with $date }}
+              <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "2 Jan 2006" }}</time>
+            {{ end }}
+          </div>
+          {{ with .Params.summary }}
+            <p class="blog-list__summary">{{ . }}</p>
+          {{ else }}
+            {{ with .Summary }}
+              <p class="blog-list__summary">{{ . | plainify }}</p>
+            {{ end }}
+          {{ end }}
+        </article>
       {{ end }}
-    </ul>
+    </div>
   </div>
 {{ end }}

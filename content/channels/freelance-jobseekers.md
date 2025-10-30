@@ -16,5 +16,3 @@ title = "freelance-jobseekers"
 Advertise your availability for freelance work and contract opportunities. Whether you're a developer, designer, or other tech professional in South Africa, this is where you let potential clients know you're ready for your next gig.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/CV6V21U5D" >}}

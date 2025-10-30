@@ -94,5 +94,3 @@ Share, discuss, and practice algorithms — from competitive programming to acad
 - [#cs-theory](/channels/cs-theory/)
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C0C1RN1MF" >}}

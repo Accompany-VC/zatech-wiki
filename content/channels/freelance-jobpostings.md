@@ -16,5 +16,3 @@ title = "freelance-jobpostings"
 Connect freelancers with short-term projects, contract work, and freelance opportunities across various tech disciplines.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/CA6AG7TKL" >}}

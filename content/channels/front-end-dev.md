@@ -16,5 +16,3 @@ title = "front-end-dev"
 A community for South African front-end developers to discuss UI development, responsive design, accessibility, performance optimization, and the latest front-end technologies. Whether you're working with React, Vue, Angular, or vanilla JavaScript, share knowledge and learn from fellow front-end practitioners.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C06SL2YR1" >}}

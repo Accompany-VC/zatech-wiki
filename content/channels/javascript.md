@@ -16,5 +16,3 @@ title = "javascript"
 Connect with JavaScript developers across South Africa to discuss frameworks, libraries, best practices, and the latest developments in the JavaScript ecosystem. From vanilla JS to modern frameworks, all JavaScript topics are welcome here.
 
 </details>
-
-{{< slack-button url="https://zatech.slack.com/archives/C09A6JA68" >}}
