@@ -1,5 +1,6 @@
 +++
 title = "Channel Pages"
+body_class = "channels-list"
 +++
 
 # Channel Directory
@@ -10,24 +11,19 @@ Browse ZATech community channels below.
 
 ## Special Channels
 
+- [#asktheadmins](/channels/asktheadmins/) - A channel to ask the admins questions
 - [#announcements](/channels/announcements/) - Official community announcements
 - [#announcements-community](/channels/announcements-community/) - Community events and announcements
 - [#introductions](/channels/introductions/) - Introduce yourself to the community
-- [Private channels](/channels/private-channels/) - Invite-only discussion spaces
 
 ---
 
 ## Public Channels
 
-<div class="channel-list-grid">
-
-<div>
-
 - [#ai](/channels/ai/)
 - [#algorithms](/channels/algorithms/)
 - [#android-development](/channels/android-development/)
 - [#api](/channels/api/)
-- [#asktheadmins](/channels/asktheadmins/)
 - [#aws](/channels/aws/)
 - [#beginners](/channels/beginners/)
 - [#capetown](/channels/capetown/)
@@ -43,11 +39,6 @@ Browse ZATech community channels below.
 - [#freelance-jobpostings](/channels/freelance-jobpostings/)
 - [#freelance-jobseekers](/channels/freelance-jobseekers/)
 - [#front-end-dev](/channels/front-end-dev/)
-
-</div>
-
-<div>
-
 - [#gaming](/channels/gaming/)
 - [#general](/channels/general/)
 - [#how-to-zatech](/channels/how-to-zatech/)
@@ -79,6 +70,8 @@ Browse ZATech community channels below.
 - [#working-abroad](/channels/working-abroad/)
 - [#writing](/channels/writing/)
 
-</div>
+---
 
-</div>
+## Private Channels
+
+- [Private channels](/channels/private-channels/) - Invite-only discussion spaces
